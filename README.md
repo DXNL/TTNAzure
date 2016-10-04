@@ -11,6 +11,7 @@ During the workshop the following experts will be present to guide you through t
 
 - Valery Jacobs, Technical Evangelist at Microsoft [ ![Twitter](img/social/twitter.png) ](https://twitter.com/valeryjacobs)
 - Johan Stokking; Architect & Co-founder at The Things Network [ ![Twitter](img/social/twitter.png) ](https://twitter.com/johanstokking)
+- Fokke Zandbergen; Developer Advocate at The Things Network [ ![Twitter](img/social/twitter.png) ](https://twitter.com/fokkezb)
 - Sander van de Velde; Microsoft Consultant at Atos [ ![Twitter](img/social/twitter.png) ](https://twitter.com/svelde)
 - Jan Willem Groenenberg; Microsoft Consultant at Atos [ ![Twitter](img/social/twitter.png) ](https://twitter.com/jeeweetje)
 
