@@ -95,7 +95,7 @@ Follow the steps to create an application and register your device.
 
 1. Log into the [preview.console.thethingsnetwork.org](https://preview.console.thethingsnetwork.org). You will be asked to provide TTN credentials if needed.
     
-     **NOTE:** Be aware that you cannot use an account created at `account.thethingsnetwork.org`. You need to create an account at [staging.account.thethingsnetwork.org](https://staging.account.thethingsnetwork.org/) instead.
+     **NOTE:** Be aware that you can **NOT** use an account created at `account.thethingsnetwork.org`. You need to create an account at [staging.account.thethingsnetwork.org](https://staging.account.thethingsnetwork.org/) instead. Also make sure that you do **NOT** end up at `staging.thethingsnetwork.org` at some point, but stick with [preview.console.thethingsnetwork.org](https://preview.console.thethingsnetwork.org).
     
 2. A TTN application is a logical container of several devices, providing the same telemetry. There are no TTN applications yet
 
