@@ -14,7 +14,7 @@ This is an example integration between The Things Network and Azure IoT Hub. Thi
 3. Arduino IDE [http://arduino.cc](http://arduino.cc)
 4. Node.js [https://nodejs.org/en/](https://nodejs.org/en/). _(We prefer Version 6.6)_
 5. Azure account [create here](https://azure.microsoft.com/en-us/free/) _([Azure passes](https://www.microsoftazurepass.com/howto) will be present for those who have no Azure account)_
-6. TTN account [https://account.thethingsnetwork.org/](https://account.thethingsnetwork.org/)
+6. TTN staging account, create at [staging.account.thethingsnetwork.org](https://staging.account.thethingsnetwork.org/) (**not** `account.thethingsnetwork.org`!)
 7. [IoT Hub Explorer](https://github.com/Azure/azure-iot-sdks/tree/master/tools/iothub-explorer) _(for Command-Line interface  based usage)_ or [Device Explorer](https://github.com/Azure/azure-iot-sdks/blob/master/tools/DeviceExplorer/) _(for GUI based usage)_  
 
 ## Connect your device
@@ -93,7 +93,10 @@ Open the Arduino IDE and follow these steps.
 
 Follow the steps to create an application and register your device.
 
-1. Log into the [The Things Network dashboard](https://preview.console.thethingsnetwork.org). You will be asked to provide TTN credentials if needed
+1. Log into the [preview.console.thethingsnetwork.org](https://preview.console.thethingsnetwork.org). You will be asked to provide TTN credentials if needed.
+    
+     **NOTE:** Be aware that you cannot use an account created at `account.thethingsnetwork.org`. You need to create an account at [staging.account.thethingsnetwork.org](https://staging.account.thethingsnetwork.org/) instead.
+    
 2. A TTN application is a logical container of several devices, providing the same telemetry. There are no TTN applications yet
 
     ![alt tag](img/ttn-app-list-empty.png)
@@ -439,7 +442,3 @@ The messages are shown here too. These messages are now available in Azure.
 Next Step: You are now ready to process your data in an Azure Function. Continue to [Handling The Things Network telemetry in Azure](Azure.md)
 
 ![Workshop provided by Microsoft, The Things Network and Atos](img/logos/microsoft-ttn-atos.png)
-
-        
-        
-    
