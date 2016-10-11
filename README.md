@@ -32,6 +32,4 @@ The third part is optional/extra if you have time left.
 2. [Handling The Things Network telemetry in Azure](Azure.md)
 3. [Pushing telemetry messages to Microsoft Flow and beyond](Flow.md)
 
-![alt tag](img/logos/techdays2016-logo-50percent.png)
-
 ![alt tag](img/logos/microsoft-ttn-atos.png)
